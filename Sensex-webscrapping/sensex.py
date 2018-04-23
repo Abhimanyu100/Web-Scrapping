@@ -22,7 +22,7 @@ print(name)
 # get the index price
 price_box = soup.find('div', attrs={'class':'price'})
 price = price_box.text
-print(price)
+print(price) #print price
 
 # for loop
 data = []
